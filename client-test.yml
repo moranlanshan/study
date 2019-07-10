@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/moranlanshan/study
+          username: moranlansha
+          password: wxwwt123
+
+eureka:
+  client:
+    service-url:
+      defualtZone:  http://localhost:8761/eureka/
+server:
+  port: 8086
+env:
+  test
