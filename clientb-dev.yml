@@ -1,12 +1,6 @@
 env:
   dev
   
-eureka:
-  client:
-    service-url:
-      defualtZone:  http://localhost:8761/eureka/
-
-
 eureka-client:
   ribbon:
     NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
