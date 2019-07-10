@@ -1,0 +1,14 @@
+eureka:
+  client:
+    service-url:
+      defualtZone:  http://localhost:8761/eureka/
+spring:
+  application:
+    name: eureka-clientB
+server:
+  port: 8080
+
+eureka-client:
+  ribbon:
+    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.WeightedResponseTimeRule
