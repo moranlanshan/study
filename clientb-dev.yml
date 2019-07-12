@@ -2,7 +2,7 @@ env:
   dev
 girl:
   name: lili
-  age: 18
+  age: 16
   
 eureka-client:
   ribbon:
