@@ -1,5 +1,5 @@
 env:
-  dev
+  dev2
   
 eureka-client:
   ribbon:
