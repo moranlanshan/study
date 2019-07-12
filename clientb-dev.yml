@@ -1,5 +1,5 @@
 env:
-  test2
+  test
   
 eureka-client:
   ribbon:
